@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --arangi: rgb(122, 90, 0);
+    --qora: black;
+    --oq: white;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+}
+
+.header-logo {
+    width: 15%;
+}
+
+.header-a {
+    color: var(--qora);
+    font-size: 14px;
+    padding: 10px;
+}
+
+.header-a:hover {
+    border-bottom: 1px solid var(--arangi);
+    color: var(--arangi);
+}
+
+.header-right-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #E3E9E6;
+    width: 1294px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.sec1-left {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.sec1-h2 {
+    color: var(--qora);
+    font-size: 58px;
+    width: 588px;
+}
+
+.sec1-text {
+    font-size: 16px;
+    color: var(--qora);
+    width: 565px;
+}
+
+.sec1-button {
+    background: none;
+    font-size: 18px;
+    color: var(--qora);
+    border: 1px solid var(--qora);
+    border-radius: 25px;
+    padding: 14px 53px;
+}
+
+.sec1-button:hover {
+    background-color: var(--qora);
+    color: var(--oq);
+    transition: 400ms ease;
+}
+
+.sec1-button:active {
+    background-color: var(--arangi);
+    border: 1px solid var(--arangi);
+    transition: 250ms ease;
+}
+
+@media only screen and (max-width:425px) {
+    .header-ul {
+        gap: 1px;
+    }
+
+    .header-a {
+        font-size: 9px;
+    }
+
+    .header-right-logo {
+        width: 15%;
+    }
+
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        background-color: #E3E9E6;
+        width: 425px;
+        border-radius: 20px;
+        margin: 30px auto;
+    }
+
+    .sec1-h2 {
+        font-size: 12px;
+       position: relative;
+      left: 180px;
+       
+    }
+
+    .sec1-text {
+        font-size: 8px;
+        width: 250px;
+        position: relative;
+        left: 180px;
+    }
+
+    .iphone {
+        width: 35%;
+        position: relative;
+        right: 150px;
+    }
+
+    .sec1-button {
+        background: none;
+        font-size: 8px;
+        color: var(--qora);
+        border: 1px solid var(--qora);
+        border-radius: 25px;
+        padding: 5px 10px;
+        position: relative;
+        left: 180px;
+    }
+}
