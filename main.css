@@ -125,38 +125,43 @@
         align-items: center;
         gap: 15px;
         background-color: #E3E9E6;
-        width: 425px;
+        width: 400px;
         border-radius: 20px;
         margin: 30px auto;
     }
 
     .sec1-h2 {
-        font-size: 12px;
-       position: relative;
-      left: 180px;
-       
+        font-size: 10px;
+        position: relative;
+        left: 180px;
+
+    }
+
+    .sec1-left{
+        gap: 10px;
     }
 
     .sec1-text {
         font-size: 8px;
-        width: 250px;
+        width: 220px;
         position: relative;
         left: 180px;
     }
 
     .iphone {
-        width: 35%;
+        width: 105px;
+        border-radius: 20px;
         position: relative;
-        right: 150px;
+        right: 160px;
     }
 
     .sec1-button {
         background: none;
         font-size: 8px;
         color: var(--qora);
-        border: 1px solid var(--qora);
+        border: 0.5px solid var(--qora);
         border-radius: 25px;
-        padding: 5px 10px;
+        padding: 3px 8px;
         position: relative;
         left: 180px;
     }
